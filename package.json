@@ -1,5 +1,5 @@
 {
-  "name": "Phaser TypeScript Template",
+  "name": "Phaser-TypeScript-Template",
   "version": "0.0.0",
   "description": "Phaser-ce + TypeScript",
   "main": "bundle.js",
