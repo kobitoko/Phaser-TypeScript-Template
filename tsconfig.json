@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": [
+		"es6",
+		"dom"
+    ],
+    "target": "es5",
+    "removeComments": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    },
+    "files": [
+	    "./node_modules/phaser-ce/typescript/phaser.comments.d.ts"
+    ],
+    "include": [
+		"src/**/*"
+    ]
+}

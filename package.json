@@ -1,0 +1,24 @@
+{
+  "name": "Phaser TypeScript Template",
+  "version": "0.0.0",
+  "description": "Phaser-ce + TypeScript",
+  "main": "bundle.js",
+  "dependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "copy-webpack-plugin": "^4.4.1",
+    "expose-loader": "^0.7.4",
+    "phaser-ce": "^2.10.1",
+    "ts-loader": "^3.5.0",
+    "tslint": "^5.9.1",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.7.1",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --debug --output-pathinfo --hotOnly --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js --progress --colors"
+  }
+}
